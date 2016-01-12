@@ -903,6 +903,7 @@ nav#menu #menu-nav li a:hover {
 .social-icons {
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 
 .social-icons li {
@@ -916,10 +917,11 @@ nav#menu #menu-nav li a:hover {
 
 .social-icons li a{
 	color: #FFFFFF;
-	font-size: 16px;
+	font-size: 25px;
 	line-height: 1em;
 	width: 16px;
 	height: 16px;
+	text-align: center;
 
 	opacity: 0.3;
 	filter: alpha(opacity=30);
@@ -1011,11 +1013,11 @@ nav#menu #menu-nav li a:hover {
     display: inline-block;
     font-size: 18px;
     font-weight: 500;
-    padding: 16px 40px;
+    padding: 30px 42px;
     text-align: center;
     vertical-align: middle;
-    width: auto;
-	margin-top: 30px;
+    width: 77%;
+	/*margin-top: 30px;*/
 
 	-webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;
 	   -moz-transition: background 0.1s linear 0s, color 0.1s linear 0s;
@@ -1024,6 +1026,31 @@ nav#menu #menu-nav li a:hover {
 }
 
 #contact-form .submit:hover {
+    background: #DE5E60;
+    color: #FFFFFF;
+}
+
+#contact-form .references {
+    background: #3C3F45;
+    color: #23262C;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 30px 42px;
+    text-align: center;
+    vertical-align: middle;
+    width: 77%;
+		margin-top: 65px;
+		margin-bottom: 65px;
+
+	-webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;
+	   -moz-transition: background 0.1s linear 0s, color 0.1s linear 0s;
+		 -o-transition: background 0.1s linear 0s, color 0.1s linear 0s;
+		    transition: background 0.1s linear 0s, color 0.1s linear 0s;
+}
+
+#contact-form .references:hover {
     background: #DE5E60;
     color: #FFFFFF;
 }
