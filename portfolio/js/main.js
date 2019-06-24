@@ -1,7 +1,7 @@
 /*global $, jQuery, alert*/
-$(document).ready(function() {
+// $(document).ready(function() {
 
-  'use strict';
+//   'use strict';
 
   // ========================================================================= //
   //  //SMOOTH SCROLL
@@ -75,15 +75,15 @@ $(document).ready(function() {
   //  Typed Js
   // ========================================================================= //
 
-  var typed = $(".typed");
+  // var typed = $(".typed");
 
-  $(function() {
-    typed.typed({
-      strings: ["Alex Smith.", "Designer.", "Developer.", "Freelancer.", "Photographer"],
-      typeSpeed: 100,
-      loop: true,
-    });
-  });
+  // $(function() {
+  //   typed.typed({
+  //     strings: ["Alex Smith.", "Designer.", "Developer.", "Freelancer.", "Photographer"],
+  //     typeSpeed: 100,
+  //     loop: true,
+  //   });
+  // });
 
 
   // ========================================================================= //
@@ -135,7 +135,7 @@ $(document).ready(function() {
   // Call the functions
   // magnifPopup();
 
-});
+// });
 
 // ========================================================================= //
 //  Porfolio isotope and filter
