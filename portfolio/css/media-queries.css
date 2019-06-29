@@ -29,7 +29,7 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
+      font: 65px/1.0em 'opensans-regular', sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
@@ -50,9 +50,8 @@
    /* About Section
    ------------------------------------------------------------------- */
    #about .profile-pic {
-      width: 114px;
-      height: 114px;
-      margin-left: 12px;
+      display: block !important;
+      padding-bottom: 20px;
    }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
@@ -191,7 +190,7 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h1 { font: 65px/1.1em 'opensans-bold', sans-serif; }
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
       width: 85%;
@@ -351,7 +350,7 @@
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      font: 28px/1.0em 'opensans-regular', sans-serif;      
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {

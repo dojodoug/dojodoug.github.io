@@ -53,7 +53,7 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-regular', sans-serif;
+   font: 70px/0.8em 'opensans-regular', sans-serif;
    color: #f07400;
    letter-spacing: 2px;
    margin: 0 auto 18px auto;
@@ -167,7 +167,7 @@ ul#nav li.current a { color: #f07400; }
 /* ------------------------------------------------------------------ */
 #about {
    background: #2B2B2B;
-   padding-top: 120px;
+   padding-top: 90px;
    padding-bottom: 90px;
    overflow: hidden;
 }
@@ -195,12 +195,11 @@ ul#nav li.current a { color: #f07400; }
 #about .view { padding-top: 6px; }
 #about .main-col { padding-right: 5%; }
 #about .view .button {
-   width: 200px;
+   width: 180px;
    margin-top: 6px;
+   padding: 12px;
    background: #444;
-}
-#about .resume .button {
-   padding-left: 32px;
+   text-align: center;
 }
 #about .references {
    margin-right: 50px;
@@ -210,7 +209,7 @@ ul#nav li.current a { color: #f07400; }
    color: #2B2B2B;
 }
 #about .view .button i {
-   margin-right: 15px;
+   margin-right: 8px;
    font-size: 20px;
 }
 
@@ -427,7 +426,7 @@ ul#nav li.current a { color: #f07400; }
 /* ------------------------------------------------------------------ */
 #contact {
    position: relative;
-   height: 450px;
+   height: 550px;
    min-height: 250px;
    width: 100%;
    background: #161415 url(../images/hawaii.jpg) no-repeat bottom center;
@@ -437,10 +436,10 @@ ul#nav li.current a { color: #f07400; }
    overflow: hidden;
 }
 #contact h1 {
-   padding-top: 270px;
-   padding-bottom: 30px;
+   padding-top: 185px;
+   padding-bottom: 80px;
    font: 24px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #2B2B2B;
    text-transform: uppercase;
    letter-spacing: 3px;
    margin-bottom: 12px;
@@ -451,49 +450,35 @@ ul#nav li.current a { color: #f07400; }
 
 #contact p {
    font-family: 'opensans-regular', sans-serif;
-   font-size: 30px;
+   font-size: 24px;
    color: #f07400;
    padding-top: 2px;
+   margin-bottom: 10px;
 }
 #contact .row {
-  width: 90%;
+  width: 100%;
   max-width: none;
 }
-#contact .column {
-  float: left;
-}
-#contact .column > i {
-  padding-right: 5px;
-}
-
-/* Setting up contact columns */
-#contact .contact-name {
-  width: 25%;
-}
-#contact .contact-phone {
-  width: 25%;
-}
-#contact .contact-email {
-  width: 36%;
-}
-#contact .contact-social {
-  width: 9%;
+#contact .contact-name p {
+  font-family: 'opensans-regular', sans-serif;
+  padding-bottom: 50px;
 }
 #contact .contact-phone p {
   color: #fff;
   display: inline-block;
-  font-size: 22px;
+  font-size: 18px;
+}
+#contact .contact-email {
+  padding-bottom: 10px;
 }
 #contact .contact-email a {
-  font-size: 24px;
+  font-size: 18px;
 }
 #contact .social-links {
-   padding: 0;
-   font-size: 30px;
+   font-size: 25px;
    color: #fff;
 }
 #contact .social-links a {
-  float: right;
   margin-right: 10px;
 }
 
@@ -511,8 +496,8 @@ footer {
 #go-top {
 	position: absolute;
 	top: -24px;
-   left: 50%;
-   margin-left: -30px;
+  left: 50%;
+  margin-left: -30px;
 }
 #go-top a {
 	text-decoration: none;
